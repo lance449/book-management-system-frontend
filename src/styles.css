@@ -1,0 +1,53 @@
+/* src/styles.css */
+
+/* Table header color */
+.table thead th {
+    background-color: #81d4fa; /* Light blue */
+    color: white;
+}
+
+/* Custom Button Styles */
+.custom-btn {
+    background-color: #4caf50 !important;
+    border: none !important;
+    color: white !important;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #388e3c !important; /* Darker green on hover */
+    transform: scale(1.05);
+}
+
+.custom-edit-btn {
+    background-color: #4caf50 !important; /* Green color for Edit */
+    border: none !important;
+    color: white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.custom-edit-btn:hover {
+    background-color: #388e3c !important; /* Darker green on hover */
+    transform: scale(1.05);
+}
+
+.custom-delete-btn {
+    background-color: #f44336 !important; /* Red color for delete */
+    border: none !important;
+    color: white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.custom-delete-btn:hover {
+    background-color: #d32f2f !important; /* Darker red on hover */
+    transform: scale(1.05);
+}
